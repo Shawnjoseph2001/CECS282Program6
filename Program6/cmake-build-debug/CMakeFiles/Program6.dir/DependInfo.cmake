@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Card.cpp" "/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug/CMakeFiles/Program6.dir/Card.cpp.o"
+  "/Users/shawn/Documents/GitHub/CECS282Program6/Program6/CardPile.cpp" "/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug/CMakeFiles/Program6.dir/CardPile.cpp.o"
   "/Users/shawn/Documents/GitHub/CECS282Program6/Program6/main.cpp" "/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug/CMakeFiles/Program6.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

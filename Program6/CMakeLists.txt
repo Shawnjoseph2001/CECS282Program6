@@ -3,4 +3,4 @@ project(Program6)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Program6 main.cpp)
+add_executable(Program6 main.cpp Card.cpp Card.h CardPile.cpp CardPile.h)

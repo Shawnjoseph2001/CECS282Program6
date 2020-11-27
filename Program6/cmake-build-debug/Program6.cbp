@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Card.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Card.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/CardPile.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/CardPile.h">
+			<Option target="Program6"/>
+		</Unit>
 		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/main.cpp">
 			<Option target="Program6"/>
 		</Unit>

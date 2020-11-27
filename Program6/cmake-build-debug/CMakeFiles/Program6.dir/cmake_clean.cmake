@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Program6.dir/Card.cpp.o"
+  "CMakeFiles/Program6.dir/CardPile.cpp.o"
   "CMakeFiles/Program6.dir/main.cpp.o"
   "Program6"
   "Program6.pdb"

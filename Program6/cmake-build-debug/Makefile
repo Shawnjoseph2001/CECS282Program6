@@ -142,6 +142,60 @@ Program6/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/build
 .PHONY : Program6/fast
 
+Card.o: Card.cpp.o
+
+.PHONY : Card.o
+
+# target to build an object file
+Card.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/Card.cpp.o
+.PHONY : Card.cpp.o
+
+Card.i: Card.cpp.i
+
+.PHONY : Card.i
+
+# target to preprocess a source file
+Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/Card.cpp.i
+.PHONY : Card.cpp.i
+
+Card.s: Card.cpp.s
+
+.PHONY : Card.s
+
+# target to generate assembly for a file
+Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/Card.cpp.s
+.PHONY : Card.cpp.s
+
+CardPile.o: CardPile.cpp.o
+
+.PHONY : CardPile.o
+
+# target to build an object file
+CardPile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/CardPile.cpp.o
+.PHONY : CardPile.cpp.o
+
+CardPile.i: CardPile.cpp.i
+
+.PHONY : CardPile.i
+
+# target to preprocess a source file
+CardPile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/CardPile.cpp.i
+.PHONY : CardPile.cpp.i
+
+CardPile.s: CardPile.cpp.s
+
+.PHONY : CardPile.s
+
+# target to generate assembly for a file
+CardPile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/CardPile.cpp.s
+.PHONY : CardPile.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +232,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Program6"
+	@echo "... Card.o"
+	@echo "... Card.i"
+	@echo "... Card.s"
+	@echo "... CardPile.o"
+	@echo "... CardPile.i"
+	@echo "... CardPile.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
