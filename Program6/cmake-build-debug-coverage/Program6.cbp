@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Program6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program6">
+				<Option output="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Program6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Program6"/>
+					<CompileFile command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program6/fast">
+				<Option output="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Program6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Program6/fast"/>
+					<CompileFile command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.3/bin/gmake -j4 -f &quot;/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Card.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Card.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/CardPile.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/CardPile.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Deck.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Deck.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/LostAndFound.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/LostAndFound.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/MegaDeck.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/MegaDeck.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Player.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Player.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/WarPile.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/WarPile.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/main.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

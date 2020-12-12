@@ -196,6 +196,141 @@ CardPile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/CardPile.cpp.s
 .PHONY : CardPile.cpp.s
 
+Deck.o: Deck.cpp.o
+
+.PHONY : Deck.o
+
+# target to build an object file
+Deck.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/Deck.cpp.o
+.PHONY : Deck.cpp.o
+
+Deck.i: Deck.cpp.i
+
+.PHONY : Deck.i
+
+# target to preprocess a source file
+Deck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/Deck.cpp.i
+.PHONY : Deck.cpp.i
+
+Deck.s: Deck.cpp.s
+
+.PHONY : Deck.s
+
+# target to generate assembly for a file
+Deck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/Deck.cpp.s
+.PHONY : Deck.cpp.s
+
+LostAndFound.o: LostAndFound.cpp.o
+
+.PHONY : LostAndFound.o
+
+# target to build an object file
+LostAndFound.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/LostAndFound.cpp.o
+.PHONY : LostAndFound.cpp.o
+
+LostAndFound.i: LostAndFound.cpp.i
+
+.PHONY : LostAndFound.i
+
+# target to preprocess a source file
+LostAndFound.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/LostAndFound.cpp.i
+.PHONY : LostAndFound.cpp.i
+
+LostAndFound.s: LostAndFound.cpp.s
+
+.PHONY : LostAndFound.s
+
+# target to generate assembly for a file
+LostAndFound.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/LostAndFound.cpp.s
+.PHONY : LostAndFound.cpp.s
+
+MegaDeck.o: MegaDeck.cpp.o
+
+.PHONY : MegaDeck.o
+
+# target to build an object file
+MegaDeck.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/MegaDeck.cpp.o
+.PHONY : MegaDeck.cpp.o
+
+MegaDeck.i: MegaDeck.cpp.i
+
+.PHONY : MegaDeck.i
+
+# target to preprocess a source file
+MegaDeck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/MegaDeck.cpp.i
+.PHONY : MegaDeck.cpp.i
+
+MegaDeck.s: MegaDeck.cpp.s
+
+.PHONY : MegaDeck.s
+
+# target to generate assembly for a file
+MegaDeck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/MegaDeck.cpp.s
+.PHONY : MegaDeck.cpp.s
+
+Player.o: Player.cpp.o
+
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
+WarPile.o: WarPile.cpp.o
+
+.PHONY : WarPile.o
+
+# target to build an object file
+WarPile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/WarPile.cpp.o
+.PHONY : WarPile.cpp.o
+
+WarPile.i: WarPile.cpp.i
+
+.PHONY : WarPile.i
+
+# target to preprocess a source file
+WarPile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/WarPile.cpp.i
+.PHONY : WarPile.cpp.i
+
+WarPile.s: WarPile.cpp.s
+
+.PHONY : WarPile.s
+
+# target to generate assembly for a file
+WarPile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program6.dir/build.make CMakeFiles/Program6.dir/WarPile.cpp.s
+.PHONY : WarPile.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -238,6 +373,21 @@ help:
 	@echo "... CardPile.o"
 	@echo "... CardPile.i"
 	@echo "... CardPile.s"
+	@echo "... Deck.o"
+	@echo "... Deck.i"
+	@echo "... Deck.s"
+	@echo "... LostAndFound.o"
+	@echo "... LostAndFound.i"
+	@echo "... LostAndFound.s"
+	@echo "... MegaDeck.o"
+	@echo "... MegaDeck.i"
+	@echo "... MegaDeck.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
+	@echo "... WarPile.o"
+	@echo "... WarPile.i"
+	@echo "... WarPile.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

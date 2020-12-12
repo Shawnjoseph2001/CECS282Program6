@@ -26,29 +26,38 @@
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug-Coverage" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_CXX_FLAGS=&quot;-fprofile-instr-generate -fcoverage-mapping&quot; -DCMAKE_C_FLAGS=&quot;-fprofile-instr-generate -fcoverage-mapping&quot;" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17a2d624-37db-4548-a239-a822dc7aff4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Card.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Card.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardPile.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardPile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deck.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deck.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LostAndFound.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LostAndFound.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MegaDeck.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MegaDeck.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WarPile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WarPile.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Card.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Card.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Card.h" beforeDir="false" afterPath="$PROJECT_DIR$/Card.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardPile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CardPile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardPile.h" beforeDir="false" afterPath="$PROJECT_DIR$/CardPile.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Program6.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Program6.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Program6.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +67,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Coverage" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -74,15 +83,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="ls" />
+    </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Program6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Program6" TARGET_NAME="Program6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Program6" RUN_TARGET_NAME="Program6">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Program6" TARGET_NAME="Program6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Program6" RUN_TARGET_NAME="Program6">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -103,6 +119,9 @@
       <updated>1606359218200</updated>
       <workItem from="1606359220457" duration="737000" />
       <workItem from="1606463837917" duration="2302000" />
+      <workItem from="1607407028136" duration="3786000" />
+      <workItem from="1607457122558" duration="27953000" />
+      <workItem from="1607566978855" duration="7647000" />
     </task>
     <servers />
   </component>
@@ -122,9 +141,113 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="608" y="248" key="refactoring.ChangeSignatureDialog" timestamp="1606465229505">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1607494559308">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="608" y="248" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1606465229505" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1607494559308" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1607542696442">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.825@0.23.1440.825" timestamp="1607542696442" />
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1607619742176">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="292" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607574504827" />
+    <state width="1878" height="272" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1607565991825" />
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607619742176" />
+    <state width="1398" height="219" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1607545496621" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1607619742175">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="292" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607574504816" />
+    <state width="1878" height="272" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1607565991823" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607619742175" />
+    <state width="1398" height="219" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1607545496619" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1607619742174">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="292" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607574504815" />
+    <state width="1878" height="272" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1607565991822" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607619742174" />
+    <state width="1398" height="219" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1607545496618" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1607619742176">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="292" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607574504826" />
+    <state width="1878" height="272" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1607565991824" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607619742176" />
+    <state width="1398" height="219" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1607545496620" />
+    <state width="1398" height="197" key="GridCell.Tab.1.bottom" timestamp="1607619742178">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="292" key="GridCell.Tab.1.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607574504831" />
+    <state width="1878" height="272" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1607565991661" />
+    <state width="1398" height="197" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607619742178" />
+    <state width="1398" height="219" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1607545496625" />
+    <state width="1398" height="197" key="GridCell.Tab.1.center" timestamp="1607619742177">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="292" key="GridCell.Tab.1.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607574504830" />
+    <state width="1878" height="272" key="GridCell.Tab.1.center/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1607565991660" />
+    <state width="1398" height="197" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1607619742177" />
+    <state width="1398" height="219" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1607545496622" />
+    <state width="1398" height="197" key="GridCell.Tab.1.left" timestamp="1607619742176">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="292" key="GridCell.Tab.1.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607574504829" />
+    <state width="1878" height="272" key="GridCell.Tab.1.left/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1607565991659" />
+    <state width="1398" height="197" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1607619742176" />
+    <state width="1398" height="219" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1607545496622" />
+    <state width="1398" height="197" key="GridCell.Tab.1.right" timestamp="1607619742177">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="292" key="GridCell.Tab.1.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607574504831" />
+    <state width="1878" height="272" key="GridCell.Tab.1.right/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1607565991661" />
+    <state width="1398" height="197" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607619742177" />
+    <state width="1398" height="219" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1607545496624" />
+    <state x="368" y="125" key="SettingsEditor" timestamp="1607570451919">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="368" y="125" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607570451919" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607544339234" />
+    <state x="667" y="172" width="586" height="735" key="find.popup" timestamp="1607555730038">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="667" y="172" width="586" height="735" key="find.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607555730038" />
+    <state x="811" y="298" key="refactoring.ChangeSignatureDialog" timestamp="1607563781162">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="811" y="298" key="refactoring.ChangeSignatureDialog/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607563781162" />
+    <state x="608" y="248" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1607457867377" />
+    <state x="625" y="255" key="run.anything.popup" timestamp="1607570535549">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="255" key="run.anything.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607570535549" />
+    <state x="513" y="235" width="894" height="812" key="search.everywhere.popup" timestamp="1607564234023">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="513" y="235" width="894" height="812" key="search.everywhere.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607564234023" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607547651715" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <condition expression="i == 15" language="ObjectiveC" />
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>92</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="*i" language="ObjectiveC" />
+        <watch expression="**i" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="../../../../Documents/GitHub/CECS282Program6/Program6/cmake-build-debug-coverage" NAME="Program6 Coverage Results" MODIFIED="1607570834075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="gcov/llvm" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

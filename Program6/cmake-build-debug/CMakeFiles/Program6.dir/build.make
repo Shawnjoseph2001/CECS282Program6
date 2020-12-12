@@ -115,11 +115,81 @@ CMakeFiles/Program6.dir/CardPile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program6.dir/CardPile.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Program6/Program6/CardPile.cpp -o CMakeFiles/Program6.dir/CardPile.cpp.s
 
+CMakeFiles/Program6.dir/Player.cpp.o: CMakeFiles/Program6.dir/flags.make
+CMakeFiles/Program6.dir/Player.cpp.o: ../Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Program6.dir/Player.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program6.dir/Player.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Program6/Program6/Player.cpp
+
+CMakeFiles/Program6.dir/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program6.dir/Player.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Program6/Program6/Player.cpp > CMakeFiles/Program6.dir/Player.cpp.i
+
+CMakeFiles/Program6.dir/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program6.dir/Player.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Program6/Program6/Player.cpp -o CMakeFiles/Program6.dir/Player.cpp.s
+
+CMakeFiles/Program6.dir/Deck.cpp.o: CMakeFiles/Program6.dir/flags.make
+CMakeFiles/Program6.dir/Deck.cpp.o: ../Deck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Program6.dir/Deck.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program6.dir/Deck.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Program6/Program6/Deck.cpp
+
+CMakeFiles/Program6.dir/Deck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program6.dir/Deck.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Program6/Program6/Deck.cpp > CMakeFiles/Program6.dir/Deck.cpp.i
+
+CMakeFiles/Program6.dir/Deck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program6.dir/Deck.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Program6/Program6/Deck.cpp -o CMakeFiles/Program6.dir/Deck.cpp.s
+
+CMakeFiles/Program6.dir/MegaDeck.cpp.o: CMakeFiles/Program6.dir/flags.make
+CMakeFiles/Program6.dir/MegaDeck.cpp.o: ../MegaDeck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Program6.dir/MegaDeck.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program6.dir/MegaDeck.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Program6/Program6/MegaDeck.cpp
+
+CMakeFiles/Program6.dir/MegaDeck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program6.dir/MegaDeck.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Program6/Program6/MegaDeck.cpp > CMakeFiles/Program6.dir/MegaDeck.cpp.i
+
+CMakeFiles/Program6.dir/MegaDeck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program6.dir/MegaDeck.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Program6/Program6/MegaDeck.cpp -o CMakeFiles/Program6.dir/MegaDeck.cpp.s
+
+CMakeFiles/Program6.dir/WarPile.cpp.o: CMakeFiles/Program6.dir/flags.make
+CMakeFiles/Program6.dir/WarPile.cpp.o: ../WarPile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Program6.dir/WarPile.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program6.dir/WarPile.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Program6/Program6/WarPile.cpp
+
+CMakeFiles/Program6.dir/WarPile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program6.dir/WarPile.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Program6/Program6/WarPile.cpp > CMakeFiles/Program6.dir/WarPile.cpp.i
+
+CMakeFiles/Program6.dir/WarPile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program6.dir/WarPile.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Program6/Program6/WarPile.cpp -o CMakeFiles/Program6.dir/WarPile.cpp.s
+
+CMakeFiles/Program6.dir/LostAndFound.cpp.o: CMakeFiles/Program6.dir/flags.make
+CMakeFiles/Program6.dir/LostAndFound.cpp.o: ../LostAndFound.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Program6.dir/LostAndFound.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program6.dir/LostAndFound.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Program6/Program6/LostAndFound.cpp
+
+CMakeFiles/Program6.dir/LostAndFound.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program6.dir/LostAndFound.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Program6/Program6/LostAndFound.cpp > CMakeFiles/Program6.dir/LostAndFound.cpp.i
+
+CMakeFiles/Program6.dir/LostAndFound.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program6.dir/LostAndFound.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Program6/Program6/LostAndFound.cpp -o CMakeFiles/Program6.dir/LostAndFound.cpp.s
+
 # Object files for target Program6
 Program6_OBJECTS = \
 "CMakeFiles/Program6.dir/main.cpp.o" \
 "CMakeFiles/Program6.dir/Card.cpp.o" \
-"CMakeFiles/Program6.dir/CardPile.cpp.o"
+"CMakeFiles/Program6.dir/CardPile.cpp.o" \
+"CMakeFiles/Program6.dir/Player.cpp.o" \
+"CMakeFiles/Program6.dir/Deck.cpp.o" \
+"CMakeFiles/Program6.dir/MegaDeck.cpp.o" \
+"CMakeFiles/Program6.dir/WarPile.cpp.o" \
+"CMakeFiles/Program6.dir/LostAndFound.cpp.o"
 
 # External object files for target Program6
 Program6_EXTERNAL_OBJECTS =
@@ -127,9 +197,14 @@ Program6_EXTERNAL_OBJECTS =
 Program6: CMakeFiles/Program6.dir/main.cpp.o
 Program6: CMakeFiles/Program6.dir/Card.cpp.o
 Program6: CMakeFiles/Program6.dir/CardPile.cpp.o
+Program6: CMakeFiles/Program6.dir/Player.cpp.o
+Program6: CMakeFiles/Program6.dir/Deck.cpp.o
+Program6: CMakeFiles/Program6.dir/MegaDeck.cpp.o
+Program6: CMakeFiles/Program6.dir/WarPile.cpp.o
+Program6: CMakeFiles/Program6.dir/LostAndFound.cpp.o
 Program6: CMakeFiles/Program6.dir/build.make
 Program6: CMakeFiles/Program6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Program6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shawn/Documents/GitHub/CECS282Program6/Program6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Program6"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Program6.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -92,6 +92,36 @@
 		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/CardPile.h">
 			<Option target="Program6"/>
 		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Deck.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Deck.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/LostAndFound.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/LostAndFound.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/MegaDeck.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/MegaDeck.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Player.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/Player.h">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/WarPile.cpp">
+			<Option target="Program6"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/WarPile.h">
+			<Option target="Program6"/>
+		</Unit>
 		<Unit filename="/Users/shawn/Documents/GitHub/CECS282Program6/Program6/main.cpp">
 			<Option target="Program6"/>
 		</Unit>
